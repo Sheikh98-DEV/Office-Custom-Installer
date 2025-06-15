@@ -34,8 +34,8 @@ echo ::::::::::::::::::::::::::::::::::::
 echo :: Downloading Installation files ::
 echo ::::::::::::::::::::::::::::::::::::
 echo.
-mkdir C:\Office\ > NUL 2>&1
-cd /d C:\Office\ > NUL 2>&1
+mkdir "C:\Office_installation\" > NUL 2>&1
+cd /d "C:\Office_installation\" > NUL 2>&1
 curl "https://officecdn.microsoft.com/pr/wsus/setup.exe" -o "setup.exe"
 curl "https://raw.githubusercontent.com/Sheikh98-DEV/Office-Custom-Installer/refs/heads/main/Configuration.xml" -o "Configuration.xml"
 
@@ -60,4 +60,4 @@ echo ::::::::::::::::::::::::::::::
 echo :: Removing temporary files ::
 echo ::::::::::::::::::::::::::::::
 echo.
-rmdir /s /q "C:\Office" >nul 2>&1
+rmdir /s /q "C:\Office_installation\" >nul 2>&1
