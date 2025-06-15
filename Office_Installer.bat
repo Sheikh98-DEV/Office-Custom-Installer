@@ -53,11 +53,11 @@ echo After the end of installation process,
 echo return here and press any key to finish.
 echo.
 pause
-reg add "HKCU\Software\Microsoft\Office\16.0\Common\ExperimentConfigs\Ecs" /v "CountryCode" /t REG_SZ /d "std::wstring|US" /f
 
 echo.
 echo ::::::::::::::::::::::::::::::
 echo :: Removing temporary files ::
 echo ::::::::::::::::::::::::::::::
 echo.
+reg add "HKCU\Software\Microsoft\Office\16.0\Common\ExperimentConfigs\Ecs" /v "CountryCode" /t REG_SZ /d "std::wstring|US" /f
 rmdir /s /q "C:\Office_installation\" >nul 2>&1
