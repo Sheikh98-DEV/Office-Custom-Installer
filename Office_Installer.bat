@@ -20,12 +20,12 @@ cls
 echo :::::::::::::::::::::::::::::::::::::::
 echo ::  Office Installer Script          ::
 echo ::                                   ::
-echo ::  Version 1.0.0                    ::
+echo ::  Version 2.0.0 (Stable)           ::
 echo ::                                   ::
-echo ::  Jun 15, 2025 by  S.H.E.I.K.H     ::
+echo ::  Jun 20, 2025 by  S.H.E.I.K.H     ::
 echo :::::::::::::::::::::::::::::::::::::::
 echo.
-echo This Script will download and install Office365 Access, Excel, Outlook, PowerPoint, Word only
+echo This Script will download and install Office365 (Access, Excel, Outlook, PowerPoint, Word only)
 echo.
 pause
 
